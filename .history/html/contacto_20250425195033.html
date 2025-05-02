@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <title>Contacto.</title>
+</head>
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="cuadrado-violeta">
+
+            </div>
+
+            
+            <button class="menu" aria-label="menu">
+                <span class="menu-linea"></span>
+                <span class="menu-linea"></span>
+                <span class="menu-linea"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="contact">
+            <h3>Contacto</h3>
+            <p class="p-contact">
+                Estamos listos para ayudarte. Completa el formulario y nos pondremos en contacto contigo lo antes posible.
+            </p>
+
+            <form>
+                <input type="text" placeholder="Nombre Completo" required>
+                <input type="email" placeholder="Correo Eletrónico" required>
+                <label for="tipo-trabajo" style="display:none;">Selecciona un servicio</label>
+               <select name="options" id="tipo-trabajo">
+                    <option value="">Selecciona un servicio</option>
+                    <option value="marketing">Marketing Digital</option>
+                    <option value="d-grafico">Diseño Gráfico</option>
+                    <option value="des-web">Desarrollo Web</option>
+               </select>
+               <textarea placeholder="Tu mensaje" rows="4" required></textarea>
+               <button type="submit" class="boton-enviar">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

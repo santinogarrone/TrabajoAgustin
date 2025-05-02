@@ -1,0 +1,60 @@
+@import url(./global.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--fondo-color)
+}
+
+header{
+    background-color: var(--superficie-dos);
+}
+
+
+
+
+@media (375px >= width) {
+    body{
+        background-color: var(--fondo-color)
+    }
+
+    header{
+        background-color: var(--superficie-dos);
+    }
+    .cuadrado-violeta{
+        display: block;
+        width: 70px;
+        height: 40px;
+        background-color: var(--primary-color);
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;  
+        align-items: center; 
+    }
+    .nav-bar img{
+        width: 60px;
+        margin-right: 20px;
+    }
+
+    .main-contact{
+        display: block;
+        padding: 20px;
+    }
+
+    .contacto{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        display: ;
+        background-color: var(--primary-color);
+        box-sizing: border-box;
+    }
+}
